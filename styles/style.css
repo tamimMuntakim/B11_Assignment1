@@ -279,21 +279,24 @@
     font-weight: 500;
 }
 
-#recent-news{
+#recent-news {
     margin: 80px 160px 0px;
     display: block;
 }
-#recent-news > h1{
+
+#recent-news>h1 {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-#recent-news .news-short{
+
+#recent-news .news-short {
     font-size: 16px;
     font-weight: 400;
-    margin-bottom: 32px;   
+    margin-bottom: 32px;
 }
-.news-container{
+
+.news-container {
     background-color: #FFFFFF;
     padding: 48px;
     margin-bottom: 24px;
@@ -303,28 +306,34 @@
     justify-content: space-evenly;
     gap: 32px;
 }
-.news-container *{
+
+.news-container * {
     background-color: inherit;
 }
-.news-img img{
+
+.news-img img {
     border-radius: 24px;
 }
-.news-head{
+
+.news-head {
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 12px;
 }
-.news-date-time{
+
+.news-date-time {
     font-size: 16px;
     font-weight: 400;
     margin: 12px 0px;
 }
-.news-desc{
+
+.news-desc {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.news-more{
+
+.news-more {
     background-color: #006A50;
     color: #FFFFFF;
     padding: 13px 26px;
@@ -332,7 +341,7 @@
     border-radius: 8px;
 }
 
-#donate{
+#donate {
     margin: 80px 160px 0px;
     display: block;
     display: flex;
@@ -341,26 +350,29 @@
     /* justify-content: center; */
 }
 
-.donation-title{
+.donation-title {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 24px;
 }
-.donation-subtitle{
+
+.donation-subtitle {
     text-align: center;
     padding: 0px 60px;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
 }
-.donation-amount-container{
+
+.donation-amount-container {
     display: flex;
     gap: 24px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-bottom: 32px;
 }
-.donation-amount-container button{
+
+.donation-amount-container button {
     font-size: 40px;
     font-weight: 700;
     padding: 40px;
@@ -368,9 +380,11 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
-.donation-amount-container .for500{
+
+.donation-amount-container .for500 {
     background-color: #C6E4D6;
 }
+
 .amount-box {
     padding: 0px 124px;
     width: 100%;
@@ -383,12 +397,13 @@
     padding: 20px 0px;
     text-align: center;
     box-sizing: border-box;
-    border: 0px; 
+    border: 0px;
     background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 400;
 }
-.donation-done{
+
+.donation-done {
     background-color: #006A50;
     color: #FFFFFF;
     padding: 17px 34px;
@@ -407,29 +422,33 @@
     background-color: #C6E4D6;
     border-radius: 24px;
 }
+
 /* #newsletter *{
     background-color: inherit;
 } */
-.newslwttwr-heading{
+.newslwttwr-heading {
     font-size: 40px;
     font-weight: 700;
     margin-bottom: 16px;
     background-color: inherit;
 }
-.newsletter-desc{
+
+.newsletter-desc {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     margin-bottom: 24px;
     background-color: inherit;
 }
-.type-box-container{
+
+.type-box-container {
     width: 100%;
     display: flex;
     margin-bottom: 24px;
     border-radius: 8px;
     overflow: hidden;
 }
+
 /* .type-box-container table{
     width: 100%;
     flex:1;
@@ -445,7 +464,7 @@
     border-radius: 8px 0px 0px 8px;
 }
 
-.subscribe-btn{
+.subscribe-btn {
     color: #FFFFFF;
     background-color: #006A50;
     padding: 17px 34px;
@@ -453,9 +472,34 @@
     border-radius: 0px 8px 8px 0px;
     /* width: 1%; */
 }
-.no-spam{
+
+.no-spam {
     font-size: 16px;
     font-weight: 400;
     background-color: inherit;
     text-align: center;
+}
+
+.end-section {
+    margin-top: 80px;
+    padding: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.end-section * {
+    background-color: inherit;
+}
+
+.end-section hr {
+    margin: 32px 0px;
+    color: rgba(14, 14, 14, 0.1);
+    width: 1122px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 23px;
 }
