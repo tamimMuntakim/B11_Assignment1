@@ -208,3 +208,60 @@
     font-size: 16px;
     font-weight: 400;
 }
+
+#opinion {
+    margin: 80px 160px 0px;
+    display: block;
+}
+#opinion .question{
+    background-color: #FFFFFF;
+    padding: 32px;
+    border-radius: 16px;
+    margin-top: 24px;
+}
+/* #opinion .question *{
+    background-color: inherit;
+} */
+#opinion h1{
+    font-weight: 700;
+    font-size: 40px;
+}
+.question table{
+    width: 100%;
+    background-color: #FFFFFF;
+    border-collapse: collapse;
+}
+/* .question table *{
+    padding: 24px;
+} */
+.question th{
+background-color: #C6E4D6;
+text-align: left;
+font-size: 20px;
+font-weight: 600;
+}
+.question td{
+background-color: #FFFFFF;
+border: 0.5px solid #00000079;
+font-size: 16px;
+font-weight: 600;
+}
+.question .left-column{
+ width: auto;
+ padding: 24px 0px 24px 24px; 
+}
+.question .right-column{
+    padding: 24px 24px 24px 0px; 
+ width: 1%; 
+ white-space: nowrap;  
+}
+.question select{
+    background-color: #C6E4D6;
+    margin: 24px;
+    padding: 12.5px 16.5px;
+}
+.question option{
+    font-size: 16px;
+    font-weight: 500;
+}
+
