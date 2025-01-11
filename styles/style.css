@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
     background-color: #F5F5F5;
+    font-family: "Fira Sans", serif;
+    font-style: normal;
 }
 
 .fira-sans-default {
@@ -18,6 +20,33 @@
 
 .color-2 {
     color: #C6E4D6;
+}
+
+.card-bg-color-1 {
+    background-color: rgb(186, 220, 254);
+}
+
+.card-bg-color-2 {
+    background-color: #C6E4D6;
+}
+
+.card-bg-color-3 {
+    background-color: #F7EBCF;
+}
+
+.card-btn-color-1 {
+    background-color: #5490F5;
+}
+
+.card-btn-color-2 {
+    background-color: #09A15C;
+}
+
+.card-btn-color-3 {
+    background-color: #FFC239;
+}
+.qoute-color{
+    color: #0E0E0E;
 }
 
 
@@ -92,4 +121,90 @@
     border: 0px;
     border-radius: 8px;
     padding: 17px 34px;
+}
+
+#vision {
+    margin: 80px 160px 0px;
+    display: block;
+}
+
+.vision-title h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.vision-title p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+}
+
+.vision-card-container {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.vision-card {
+    flex: 1;
+    padding: 32px;
+    border-radius: 16px;
+}
+
+/* .vision-card * {
+    background-color: inherit;
+} */
+
+.vision-card .card-img {
+    margin-bottom: 24px;
+    background-color: inherit;
+}
+
+.vision-card .card-title {
+    margin-bottom: 24px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: inherit;
+}
+
+.vision-card .card-desc {
+    margin-bottom: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: inherit;
+}
+
+.vision-card .card-btn {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: 0px;
+    border-radius: 8px;
+}
+
+.quote{
+    margin-top: 32px;
+    background:url('../assets/quote-bg.png'), #FFFFFF;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    border-radius: 16px;
+}
+.quote *{
+    background: transparent;
+}
+.quote .quote-body{
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.quote .quote-by{
+    margin-bottom: 4px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.quote .designation{
+    font-size: 16px;
+    font-weight: 400;
 }
