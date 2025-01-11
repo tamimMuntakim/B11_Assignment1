@@ -76,6 +76,12 @@
     border-radius: 8px;
 }
 
+.navbar button:hover {
+    color: #FFFFFF;
+    background-color: #004a38;
+}
+
+
 .banner-container {
     display: flex;
     align-items: center;
@@ -123,6 +129,12 @@
     border-radius: 8px;
     padding: 17px 34px;
 }
+
+.banner-container button:hover {
+    color: #006A50;
+    background-color: white;
+}
+
 
 #vision {
     margin: 80px 160px 0px;
@@ -184,6 +196,20 @@
     border: 0px;
     border-radius: 8px;
 }
+
+.vision-card-container #btn-1:hover {
+    background-color: #005eff;
+}
+
+.vision-card-container #btn-2:hover {
+    background-color: #007541;
+}
+
+.vision-card-container #btn-3:hover {
+    background-color: #ffa600;
+}
+
+
 
 .quote {
     margin-top: 32px;
@@ -279,6 +305,7 @@
     font-weight: 500;
 }
 
+
 #recent-news {
     margin: 80px 160px 0px;
     display: block;
@@ -337,9 +364,16 @@
     background-color: #006A50;
     color: #FFFFFF;
     padding: 13px 26px;
+    font-size: 18;
+    font-weight: 600;
     border: 0px;
     border-radius: 8px;
 }
+
+.news-more:hover {
+    background-color: #01b386;
+}
+
 
 #donate {
     margin: 80px 160px 0px;
@@ -385,6 +419,10 @@
     background-color: #C6E4D6;
 }
 
+.donation-amount-container button:hover {
+    background-color: #C6E4D6;
+}
+
 .amount-box {
     padding: 0px 124px;
     width: 100%;
@@ -409,6 +447,9 @@
     padding: 17px 34px;
     border: 1px solid rgba(14, 14, 14, 0.1);
     border-radius: 8px;
+}
+.donation-done:hover{
+    background-color: #01b386;
 }
 
 
@@ -471,6 +512,9 @@
     border: 0px;
     border-radius: 0px 8px 8px 0px;
     /* width: 1%; */
+}
+.subscribe-btn:hover{
+    background-color: #01b386;;
 }
 
 .no-spam {
