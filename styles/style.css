@@ -667,6 +667,9 @@
     .newslwttwr-heading{
         text-align: center;
     }
+    .end-section hr {
+    width: 100%;
+}
     
 }
 /*
